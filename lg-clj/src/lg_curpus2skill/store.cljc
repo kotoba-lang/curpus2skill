@@ -15,7 +15,7 @@
   connection / RW_URL is unset), the store is INERT unless C2S_STORE_ENABLED=1
   (or RW_URL is set as a legacy signal). Inert, `query-corpus` yields no rows and
   `persist-skills!` stores nothing — exactly the unconfigured Python path."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:dynamic *enabled?*
   "Host-controlled store gate. Portable execution is inert by default."

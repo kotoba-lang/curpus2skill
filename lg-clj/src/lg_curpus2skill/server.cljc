@@ -20,7 +20,7 @@
   running socket."
   (:require [langgraph.graph :as g]
             [cheshire.core :as json]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [lg-curpus2skill.graphs.health :as health]
             [lg-curpus2skill.graphs.extract-evidence :as extract-evidence]))
 

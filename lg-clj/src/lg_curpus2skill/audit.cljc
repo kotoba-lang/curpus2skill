@@ -5,7 +5,7 @@
   JSON → cheshire. The host supplies the purpose-bound HTTP capability and
   configuration. The portable default is disabled and network-incapable."
   (:require [cheshire.core :as json]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 (def ^:dynamic *config*
   {:disabled? true
