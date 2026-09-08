@@ -16,7 +16,7 @@
   seam (`lg-curpus2skill.store/extract-evidence`), whose corpus read + skill
   write edges are injectable (kotoba Datom-log target). camelCase params
   (source/limit/skillLimit/minScore/topK/dryRun) are passed through as-is."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [langgraph.graph :as g]
             [lg-curpus2skill.store :as store]))
 
