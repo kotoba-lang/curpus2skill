@@ -20,8 +20,8 @@ runs alongside until a human cuts over. Nothing in `../lg/` was changed.
 ## Run
 
 ```bash
-bb test          # clojure.test suite (17 tests / 35 assertions green)
-bb serve 2024    # XRPC/runs server on httpkit
+kbb -M:test          # clojure.test suite (17 tests / 35 assertions green)
+kbb -M:serve 2024    # XRPC/runs server on httpkit
 ```
 
 ## Faithfulness / deviations

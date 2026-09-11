@@ -1,7 +1,7 @@
 ;; lg-curpus2skill clj-port test runner (repo rule: run_tests.clj, NOT .sh —
 ;; ADR-2606072802 + 2606280030).
 ;;
-;;   bb run_tests.clj   (from 60-apps/etzhayyim-project-curpus2skill/lg-clj/)
+;;   kbb run_tests.cljk   (from 60-apps/etzhayyim-project-curpus2skill/lg-clj/)
 ;;   bb test            (bb.edn task alias)
 ;;
 ;; Audit emit is disabled here so no background HTTP fires during tests.
